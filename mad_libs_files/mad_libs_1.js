@@ -1,3 +1,4 @@
+//Created by Gavin Kirkreit
 var adjective1 = "";
 var verbEndingInED = "";
 var nounPlural1 = "";
@@ -33,4 +34,5 @@ function getUserInput(){
 	nounPlural3 = document.getElementById("nounPlural3");
 	number = document.getElementById("number");
 	adjective2 = document.getElementById("adjective2");
+	
 }
