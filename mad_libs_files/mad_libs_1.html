@@ -2,33 +2,45 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
-		<tile>Mad Libs 1</tile>
-		<script type="/text/javascript" src="mad_libs_1.js"></script>
+		<title>Mad Libs 1</title>
+		<link rel="stylesheet" type="text/css" href="../styles.css">
+		<script type="text/javascript" src="mad_libs_1.js"></script>
 	</head>
 	<body lang="en-US">
 		<div class="container-fluid">
 			<h1>Mad Libs 1</h1>
+			<h3>Please fill in ALL fields before clicking the button!</h3>
 		</div>
 		<div class="container-fluid">
-			<form>
-				Adjective: <input type="text" name="adjective1"><br>
-				Verb Ending in "ED": <input type="text" name="verbEndingInED"><br>
-				Noun (Plural): <input type="text" name="nounPlural1"><br>
-				Liquid: <input type="text" name="liquid"><br>
-				Noun (Plural): <input type="text" name="nounPlural2"><br>
-				Famous Person: <input type="text" name="famousPerson"><br>
-				Place: <input type="text" name="place"><br>
-				Occupation: <input type="text" name="occupation"><br>
-				Noun: <input type="text" name="noun1"><br>
-				Nationality: <input type="text" name="nationality"><br>
-				Female Celebrity: <input type="text" name="femaleCelebrity"><br>
-				Noun: <input type="text" name="noun2"><br>
-				Female Friend: <input type="text" name="femaleFriend"><br>
-				Noun (Plural): <input type="text" name="nounPlural3"><br>
-				Number: <input type="text" name="number"><br>
-				Adjective: <input type="text" name="adjective"><br>
-			<form>
-			<a href="mad_libs_1_with_user_answers">I'M FINISHED!</a>
-		</div>		
+			<ul>
+				<li>Adjective: <input type="text" name="adjective1" id="adjective1"><br>
+				<li>Verb Ending in "ED": <input type="text" name="verbEndingInED" id="verbEndingInED"><br>
+				<li>Noun (Plural): <input type="text" name="nounPlural1" id="nounPlural1"><br>
+				<li>Liquid: <input type="text" name="liquid" id="liquid"><br>
+				<li>Noun (Plural): <input type="text" name="nounPlural" id="nounPlural2"><br>
+				<li>Famous Person: <input type="text" name="famousPerson" id="famousPerson"><br>
+				<li>Place: <input type="text" name="place" id="place"><br>
+				<li>Occupation: <input type="text" name="occupation" id="occupation"><br>
+				<li>Noun: <input type="text" name="noun1" id="noun1"><br>
+				<li>Nationality: <input type="text" name="nationaltiy" id="nationality"><br>
+				<li>Female Celebrity: <input type="text" name="femaleCelebrity" id="femaleCelebrity"><br>
+				<li>Noun: <input type="text" name="noun2" id="noun2"><br>
+				<li>Female Friend: <input type="text" name="femaleFriend" id="femaleFriend"><br>
+				<li>Noun (Plural): <input type="text" name="nounPlural3" id="nounPlural3"><br>
+				<li>Number: <input type="text" name="number" id="number"><br>
+				<li>Adjective: <input type="text" name="adjective2" id="adjective2"><br>
+				<button id="finished" class="button">I'M FINISHED!</button>
+			</ul>
+
+		</div>
+		<a href="https://en.wikipedia.org/wiki/Mad_Libs">Reference link for Mad Libs</a>
+		  </div>
+		  <div style="float: right; width: 75%">
+		    <img src="http://4.bp.blogspot.com/-7lkrxgMK4ys/Ul8DL_lzYnI/AAAAAAAAAFs/D4CaYNdNmbc/s1600/MadLibs-Logo.png" alt="Mad Libs Logo" style="width:575px;height:350px;"/>
+		    <a href="https://en.wikipedia.org/wiki/Mad_Libs">Reference link for Mad Libs</a>
+		  </div>
+		</div>
+		<div id="story"></div>
+		<div class="container-fluid"><a href="../index.html">PLAY ANOTHER MAD LIB</a></div>
 	</body>
 </html>
